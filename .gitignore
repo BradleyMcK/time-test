@@ -1,9 +1,16 @@
-target/
-mvn*
+# Eclipse
+.classpath
+.project
+.settings/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# Intellij
+.idea/
 *.iml
-*.ipr
+*.iws
 
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
